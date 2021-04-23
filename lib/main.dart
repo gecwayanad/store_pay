@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'Screens/paymentScreen.dart';
+import 'package:store_pay/Screens/loginScreen.dart';
 
 void main() {
   runApp(MyApp());
@@ -13,7 +13,8 @@ class MyApp extends StatelessWidget {
       theme: ThemeData(
         primarySwatch: Colors.blue,
       ),
-      home: 
+      home: LoginScreen(),
     );
   }
 }
+
