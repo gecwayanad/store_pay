@@ -1,3 +1,7 @@
+<<<<<<< HEAD
+=======
+
+>>>>>>> master
 //extra added
 //------------------
 //pluggins:

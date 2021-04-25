@@ -7,3 +7,12 @@ Widget mainAppbar(BuildContext context) {
     backgroundColor: Colors.grey[700],
   );
 }
+
+
+Widget CustomtextField(String _hinttext){
+  return Center(child: Container(
+    
+  ),
+  );
+
+}
