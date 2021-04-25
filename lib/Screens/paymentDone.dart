@@ -75,6 +75,7 @@ class _PaymentDoneState extends State<PaymentDone> {
               SizedBox(height: 30,),
               ElevatedButton(
                 style:  ElevatedButton.styleFrom(
+                  shape: RoundedRectangleBorder(borderRadius: BorderRadius.circular(30)),
                   primary: HexColor("40BFFF"),        //hex pluggin used
                   padding: EdgeInsets.symmetric(horizontal: 50, vertical: 20)
                 ),
