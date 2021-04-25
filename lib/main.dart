@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:store_pay/Screens/paymentDone.dart';
 import 'Screens/paymentScreen.dart';
 
 void main() {
@@ -13,7 +14,7 @@ class MyApp extends StatelessWidget {
       theme: ThemeData(
         primarySwatch: Colors.blue,
       ),
-      home: 
+      home: PaymentDone()
     );
   }
 }
