@@ -14,11 +14,12 @@ class MyApp extends StatelessWidget {
   Widget build(BuildContext context) {
     return MaterialApp(
 
-        title: 'Store Pay',
-        theme: ThemeData(
-          primarySwatch: Colors.blue,
-        ),
-        home: Home());
+      title: 'Store Pay',
+      theme: ThemeData(
+        primarySwatch: Colors.blue,
+      ),
+      home: LoginScreen()
+    );
 
   }
 }
